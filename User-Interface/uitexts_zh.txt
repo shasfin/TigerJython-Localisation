@@ -1,0 +1,341 @@
+#
+# (c) 2014-2019, Tobias Kohn
+#
+# http://jython.tobiaskohn.ch/
+#
+# LAST CHANGE: FEB-14-2019
+#
+language.name = "中文"
+
+### Menu items ###
+# File
+menu.file = "文件"
+# Edit
+menu.edit = "编辑"
+# Run
+menu.run = "运行"
+# Tools
+menu.tools = "&Tools"
+# Help
+menu.help = "&Help"
+
+### Actions ###
+# New (Start a new program)
+new.caption = "新建 (N)"
+new.tooltip = "新建"
+new.shortcut = "command N"
+# Open (Open an existing program)
+open.caption = "打开... (O)"
+open.tooltip = "打开"
+open.shortcut = "command O"
+# Save (Save the current program)
+save.caption = "保存 (S)"
+save.tooltip = "保存"
+save.shortcut = "command S"
+# Save as (Save the current program under a new name)
+saveas.caption = "另存为..."
+saveas.tooltip = "另存为"
+# Save all (Save all open programs)
+saveall.caption = "全部保存"
+saveall.tooltip = "全部保存"
+# Open recent file
+reopen.caption = "近期文件"
+# Close (Close the current program)
+close.caption = "关闭 (W)"
+close.tooltip = "关闭"
+close.shortcut = "command W"
+# Close all (Close all program in the editor)
+closeall.caption = "全部关闭"
+closeall.tooltip = "全部关闭"
+# Print (Print the current program)
+print.caption = "打印"
+print.tooltip = "打印"
+# Preferences
+preferences.caption = "首选项..."
+# Quit/Exit (Quit the application)
+quit.caption = "退出"
+quit.tooltip = "退出"
+
+# Undo
+undo.caption = "撤消 (Z)"
+undo.shortcut = "command Z"
+# Redo
+redo.caption = "恢复 (Y)"
+redo.shortcut = "command Y"
+# Cut
+cut.caption = "剪切 (T)"
+cut.shortcut = "command X"
+# Copy
+copy.caption = "复制 (C)"
+copy.shortcut = "command C"
+# Copy with formats (Copy the program code with formats)
+copyasrtf.caption = "Copy with formats"
+copyasrtf.shortcut = "command shift C"
+# Paste
+paste.caption = "粘贴 (V)"
+paste.shortcut = "command V"
+# Clear ()
+clear.caption = "删除"
+# Clear All ()
+clearall.caption = "Clear all"
+# Select all
+selectall.caption = "全选 (A)"
+selectall.shortcut = "command A"
+# Copy to editor ()
+copyinputtext.caption = "Copy to editor"
+# Find (Find some text in your program)
+find.caption = "查找 (F)"
+find.shortcut = "command F"
+# Find or replace (Find or replace text in your program)
+replace.caption = "查找/替换... (H)"
+replace.shortcut = "command H"
+# Toggle comments (Add or remove line comments)
+togglecomment.caption = "添加/删除单行注释"
+
+# Run (Run/Execute the current program)
+run.caption = "运行"
+run.tooltip = "运行"
+run.shortcut = "F5"
+# Resume (Resume the paused program)
+resume.caption = "&Resume"
+resume.tooltip = "Resume the paused program."
+resume.shortcut = "F5"
+# Run selection (Run/Execute only the selected part of the program)
+runselected.caption = "Run &selection"
+runselected.shortcut = "shift F5"
+# Run Single Step (Run/Execute only a single line of your program)
+singlestep.caption = "Run s&ingle step"
+singlestep.shortcut = "F6"
+# Step over (Run/Execute the program until it arrives at the line below)
+stepover.caption = "Step over"
+stepover.shortcut = "shift F6"
+# Pause (Pause the execution of the program)
+pause.caption = "&Pause"
+# Stop (Stop/Abort the execution of the program)
+abort.caption = "S&top"
+# Reset (Reset the Python interpreter)
+reset.caption = "R&eset"
+# Toggle Breakpoint (Set or Remove a Breakpoint)
+togglebreakpoint.caption = "To&ggle Breakpoint"
+togglebreakpoint.shortcut = "control shift B"
+# Toggle Debugger (Show or Hide the Debugger)
+showdebugger.caption = "Toggle &Debugger"
+# Show Console (Open the interactive console in a separate window.)
+showconsole.caption = "Show &Console"
+showconsole.tooltip = "Open the interactive console in a separate window."
+showconsole.shortcut = "command T"
+# Memorize Function (Memorize the currently selected command or function)
+define.caption = "Memorize function"
+define.tooltip = "Memorize the currently selected command or function"
+# Manage my Functions
+showfunctions.caption = "Manage my functions"
+# Keyboard Interrupt (Inject a Keyboard Interrupt <CTRL+C> into your running program)
+keyboardinterrupt.caption = "Keyboard Interrupt"
+
+# Insert Random Numbers
+insertrandomnumbers.caption = "Insert Random Numbers..."
+# Insert a Prime Number
+insertprimenumber.caption = "Insert Prime Number..."
+
+apludocumentation.caption = "APLU Documentation..."
+
+help.caption = "&Help"
+help.enabled = true
+update.caption = "Update/Homepage"
+about.caption = "About " + app.name + "..."
+
+### Window captions ###
+console.caption = "Console"
+output.caption = "Output"
+info.caption = "Info"
+problems.caption = "Messages"
+
+quickfind.caption = "Find"
+
+### Debugger Panel ###
+debug.runspeed = "Running speed"
+debug.slow = "Slow"
+debug.fast = "Fast"
+
+### Messages and Queries ###
+message.cannotsaveduplicate = "The file '%s' is already open and cannot be overwritten.\n"+
+	"Please close it first or choose another filename."
+# The file '%s' could not be found.
+message.filenotfound = "无法打开文件'%s'。"
+# Printed %d pages.
+message.printed = "Printed %d pages."
+# Update: A newer version (%s) of TigerJython is available.
+message.updateavailable = "Update: A newer version (%s) of " + app.name + " is available."
+# The file '%s' already exists. Do you want to overwrite it?
+queries.overwrite = "The file '%s' already exists.\nDo you want to overwrite it?"
+# The file '%s' has been changed.\nSave before closing?
+queries.savebeforeclose = "是否保存文件'%s'？"
+# A program is still running. Do you want to stop it?
+queries.abort = "A program is still running.\nDo you want to stop it?"
+# The file '%s' has been modified by another program. Do you want to reload it from disc?
+queries.reload = "'%s'\n此文件被另一个程序修改了。\n是否重新加载？"
+# Python files
+dialogs.pythonfiles = "Python files"
+
+### Preferences ###
+prefs {
+	.title = "Preferences"
+	# Ok (Save the changes and quit)
+    .ok = "确定"
+	# Cancel (Don't save the changes and quit)
+	.cancel = "取消"
+
+    .general = "General"
+	.general.tooltip = "Change the appearance."
+    .fontsize = "Fontsize"
+    .tabwidth = "Tabwidth"
+    .autoindent = "Indent lines automatically."
+    .autoindent.tooltip = "Indent lines after keywords such as 'def' or 'if' automatically."
+    .autosave = "Save files before running them."
+    .autosave.tooltip = "Automatically save the current program before running it."
+	.checkupdate = "Check for updates."
+	.checkupdate.tooltip = "Automatically check if there is an update available for download."
+	.highlightline = "Highlight the current line."
+	.scaletoscreen = "Scale for high screen resolutions."
+	.hideexeccode = "Hide main window during execution."
+    .language = "Language"
+    .lookandfeel = "Look and feel"
+
+    .advanced = "Advanced"
+	.advanced.tooltip = "Change advanced setting."
+	.docmode.multi = "Edit documents using tabs."
+	.docmode.multi.tooltip = "Allows to open and edit several documents at a time."
+	.docmode.single = "Edit one document only."
+	.docmode.single.tooltip = "Open and edit only one document at a time."
+	.docmode.newinstance = "Open document in a new window."
+	.docmode.newinstance.tooltip = "Open each document in a new version of " + app.name + "."
+	.autobackup = "Backup open files automatically."
+	.autobackup.tooltip = "TigerJython saves a copy of all open Python-files in the 'tjbackup'-folder."
+    .showmenu = "Show the mainmenu."
+    .showmenu.tooltip = "Display the menu at the top of the window."
+	.closedocwarning = "Warning! All documents will be immediately closed."
+	.displayerrorframe = "In case of an error, load the last frame into the debugger."
+	.jython.usagestats = "Print usage statistics"
+	.jython.usagestats.tooltip = "Print the time needed for the execution and the available memory at the end of the program."
+    .jython.autoaddjars = "Add jar-files in 'Lib' automatically to the path."
+    .jython.autoaddjars.tooltip = "Look for jar-files in the Lib-directory and add them to the python-path."
+	.popuperrormsg = "Show errors directly inside the editor."
+	.popuperrormsg.tooltip = "Error messages will displayed with a small pop-up window."
+	.jvm.disabledirectdraw = "Disable Direct3D-drawing."
+	.jvm.disabledirectdraw.tooltip = "On some computers, Java's Direct3D does not work properly and needs to be disabled."
+    .jython.exterrors = "Use the extended error-detection."
+    .jython.exterrors.tooltip = "When active, problematic or useless Python expressions are prohibited."
+	.jython.strictchecking = "Strict error-detection."
+	.jython.strictchecking.tooltip = "Provide additional error detection of problematic statements and expressions."
+	.jython.flatfunctions = "Prohibit nested function definitions."
+    .jython.olddivision = "Use the old division of Python 2."
+    .jython.olddivision.tooltip = "When active, / and // are handled as in Python 2. This option requires " + 
+                                    app.name + " to be restarted."
+    .jython.evalinput = "Evaluate input as in Python 2."
+    .jython.evalinput.tooltip = "When active, the input function is 'eval(raw_input())'."
+    .jython.repeatloop = "Allow 'repeat'-loops."
+    .jython.repeatloop.tooltip = "Loops with 'repeat' are not standard-Python and can thus be deactivated here."
+	.jython.sagepowerop = "Use `^' for power and `^^' for xor."
+	.jython.sagepowerop.tooltip = "When this option is active, the operator `^' stands for `power' and `^^' is used for `xor'."
+	.showlonglists = "Display long lists completely."
+	.showlonglists.tooltip = "Without this option, long lists are shortened for display in the console."
+	.jvm.disabledirectdraw = "Disable Direct3D-Drawing."
+	.disabledebugbeans = "Disable beans-properties in the debugger."
+	.disabledebugbeans.tooltip = "Some Java-beans-properties might cause problems in the debugger. Disable them if necessary."
+	.feedback.sendhttp = "Send us an automated feedback about error messages."
+	.feedback.sendhttp.tooltip = "Help us improve TigerJython by sending us automated and anyomized feedback about how good our error messages are."
+	.importsite = "Import site-packages at startup."
+	.jython.protectfunctions = "Protect builtin-functions."
+	.ximport = "Preprocess imports for extended syntax support."
+	
+	.library = "Library"
+    .aplu.turtle.winsize = "Turtle's window size"
+	.aplu.turtle.winsize.default = "Default"
+	.aplu.turtle.winsize.default.tooltip = "Use the libraries' default."
+	.aplu.turtle.winsize.auto = "Auto"
+	.aplu.turtle.winsize.auto.tooltip = "Make the window as big as possible."
+	.aplu.turtle.winsize.manually = "Set size to"
+	.aplu.turtle.winsize.manually.tooltip = "Set the size manually to (width, height)."
+	.aplu.turtle.pencolor = "Pen color"
+	.aplu.turtle.color = "Turtle color"
+	.aplu.turtle.backgroundcolor = "Background color"
+	.aplu.gturtle.hideonstart = "Hide turtle as default"
+	.aplu.gpanel.winsize = "GPanel's window size"
+	.aplu.gpanel.winsize.default = "Default"
+	.aplu.gpanel.winsize.default.tooltip = "Use the libraries' default."
+	.aplu.gpanel.winsize.manually = "Set size to"
+	.aplu.gpanel.winsize.manually.tooltip = "Set the size manually to (width, height)."
+    .aplu.gpanel.multiwindow = "Show several windows"
+	.aplu.ev3.enable = "Enable EV3-Download"
+	.aplu.ev3.exec = "Run after download"
+	.aplu.ev3.exec.tooltip = "Execute the script on the target after the download."
+	.aplu.ev3.ipaddress = "IP Address"
+	.aplu.ev3.ipaddress.tooltip = "Enter the IP Address/COM-PORT of your target."
+	.aplu.ev3.robotselect = "Choose robot"
+	.aplu.ev3.robotnone = "No robot"
+	.aplu.ev3.robotev3 = "Lego EV3"
+	.aplu.ev3.robotrpi = "Raspberry Pi"
+	.aplu.ev3.microbit = "micro:bit/Calliope"
+	
+	.syntax = "Syntax"
+	.syntax.background = "Background"
+	.syntax.default = "Normal font"
+	.syntax.builtin = "Builtin functions"
+	.syntax.comment = "Comments"
+	.syntax.const = "Builtin values"
+	.syntax.identifier = "Identifiers"
+	.syntax.keyword = "Keywords"
+	.syntax.number = "Numbers"
+	.syntax.operator = "Operators"
+	.syntax.separator = "Separators"
+	.syntax.string = "Strings"
+	.syntax.type = "Datatypes"
+	.syntax.curline = "Current line"
+	.gutter.background = "Linenumbers: Background"
+	.gutter.textcolor = "Linenumbers: Text"
+	.output.background = "Output: Background"
+	.output.textcolor = "Output: Text"
+	.output.errorcolor = "Output: Errormessages"
+	.gutter.prompt = "Console: Prompt"
+	.output.input = "Console: Input background"
+	.syntax.reset = "Reset to defaults"
+}
+
+# User defined functions
+userdef.delete = "Delete"
+userdef.emptylist = "You have no commands or functions defined!"
+userdef.confirmdelete = "Do you really want to delete '%s'?"
+
+# Find Dialog
+find {
+    # Find and Replace ...
+    .title = "查找/替换..."
+    # Find next
+    .findbutton = "查找下一个"
+    # Replace
+    .replacebutton = "替换"
+    # Replace All
+    .replaceallbutton = "全部替换"
+    # Cancel/Close
+    .cancel = "取消"
+    # Find What
+    .findwhat = "查找目标"
+    # Replace With
+    .replacewith = "替换为"
+    # Whole Word
+    .wholeword = "全词匹配"
+    # Match Case
+    .matchcase = "匹配大小写"
+    # Direction
+    .direction = "Direction"
+    # Up
+    .up = "Up"
+    # Down
+    .down = "Down"
+}
+
+# Interaction of user programs
+input.floatprompt = "Enter a number:"
+input.intprompt = "Enter an integer:"
+input.nofloaterror = "This is not a valid number."
+input.nointerror = "This is not a valid integer."

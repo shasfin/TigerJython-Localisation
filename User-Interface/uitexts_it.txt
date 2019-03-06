@@ -1,0 +1,287 @@
+#
+# (c) 2015-2017, Tobias Kohn,
+#                Giovanni Serafini
+#
+# http://jython.tobiaskohn.ch/
+#
+# LAST CHANGE: FEB-22-2018
+#
+language.name = "Italiano"
+
+# Menu items
+menu.file = "&File"
+menu.edit = "&Modifica"
+menu.run = "&Esegui"
+menu.tools = "&Tools"
+menu.help = "&Guida"
+
+# Actions
+new.caption = "&Nuovo"
+new.shortcut = "command N"
+new.tooltip = "Nuovo"
+open.caption = "&Apri..."
+open.shortcut = "command O"
+open.tooltip = "Apri"
+save.caption = "&Salva"
+save.shortcut = "command S"
+save.tooltip = "Salva"
+saveas.caption = "Sal&va come..."
+saveas.tooltip = "Salva come"
+saveall.caption = "Salva tutto"
+reopen.caption = "File recenti"
+close.caption = "&Chiudi"
+close.shortcut = "command W"
+close.tooltip = "Chiudi"
+closeall.caption = "Chiudi tutti"
+print.caption = "Stam&pa..."
+preferences.caption = "Preferenze..."
+preferences.tooltip = "Preferenze"
+quit.caption = "&Esci"
+quit.tooltip = "Esci"
+
+undo.caption = "Ann&ulla"
+undo.shortcut = "command Z"
+redo.caption = "Ripristina"
+redo.shortcut = "command Y"
+cut.caption = "Tag&lia"
+cut.shortcut = "command X"
+copy.caption = "&Copia"
+copy.shortcut = "command C"
+copyasrtf.caption = "Copia con formato"
+copyasrtf.shortcut = "command shift C"
+paste.caption = "&Incolla"
+paste.shortcut = "command V"
+clear.caption = "Elimina"
+clearall.caption = "Elimina tutto"
+selectall.caption = "Seleziona tutto"
+selectall.shortcut = "command A"
+copyinputtext.caption = "Copia nel editor"
+find.caption = "&Trova"
+find.shortcut = "command F"
+replace.caption = "Trova e &sostituisci..."
+replace.shortcut = "command H"
+togglecomment.caption = "Commenta/Decommenta"
+togglecomment.shortcut = "control Q"
+
+run.caption = "&Esegui"
+run.shortcut = "F5"
+run.tooltip = "Esegui"
+resume.caption = "Riprendi"
+resume.shortcut = "F5"
+resume.tooltip = "Riprendi"
+runselected.caption = "Esegui selezione"
+runselected.shortcut = "shift F5"
+#
+# Execute a single line/step:
+singlestep.caption = "Esegui un passo"
+singlestep.shortcut = "F6"
+singlestep.tooltip = "Esegui un passo"
+#
+# Execute a single line and regard functions as atomic,
+# i.e. do not jump into the function:
+stepover.caption = "Passa su"
+stepover.shortcut = "shift F6"
+
+pause.caption = "Sospendi"
+pause.tooltip = "Sospendi"
+abort.caption = "Termina"
+abort.tooltip = "Termina"
+reset.caption = "Resetta"
+togglebreakpoint.caption = "Attiva/disattiva punto di interruzione riga"
+togglebreakpoint.shortcut = "control shift B"
+showdebugger.caption = "Attiva/disattiva debug"
+showdebugger.tooltip = "Attiva/disattiva debug"
+showconsole.caption = "Mostra terminale"
+showconsole.tooltip = "Mostra terminale"
+showconsole.shortcut = "control T"
+define.caption = "Memorize function"
+define.tooltip = "Memorize the currently selected command or function"
+showfunctions.caption = "Manage my functions"
+
+remoteterminal.caption = "Remote Terminal"
+remoteterminal.shortcut = "shift command T"
+downloadtotarget.caption = "Download/Execute"
+downloadtotarget.shortcut = "shift F7"
+executeontarget.caption = "Execute on Target"
+executeontarget.enabled = false
+downloadmoduletotarget.caption = "Download"
+terminatepythonontarget.caption = "Terminate Python on Target"
+shutdowntarget.caption = "Shutdown Target"
+restarttarget.caption = "Restart Target"
+flashtarget.caption = "Flash Target"
+
+apludocumentation.caption = "Documentazione APLU..."
+
+# There are currently no help documents available, hence we
+# disable it.
+help.caption = "&Guida"
+help.enabled = false
+update.caption = "Aggiornamento/Home page"
+about.caption = "Informazioni su " + app.name + "..."
+
+# Window captions
+console.caption = "Console"
+output.caption = "Output"
+info.caption = "Info"
+problems.caption = "Problemi"
+
+quickfind.caption = "Trova"
+
+# Debugger Panel
+debug.runspeed = "Velocità"
+debug.slow = "Lento"
+debug.fast = "Rapido"
+
+# Messages and Queries
+message.cannotsaveduplicate = "Un file con questo nome già esiste nell'editor.\n" + 
+	"Non possono avere due file con lo stesso nome."
+message.filenotfound = "Il file '%s' non esiste."
+message.printed = "Stampato %d pagine."
+message.updateavailable = "Update: A newer version (%s) of " + app.name + " is available."
+queries.overwrite = "Il file '%s' è già esistente.\nLo vuoi sovrascrivere?"
+queries.savebeforeclose = "Ci sono cambiamenti da salvare nel file '%s'.\nVuoi salvarlo?"
+queries.abort = "Un programma è in esecuzione.\nVuoi terminarlo?"
+queries.reload = "Il file '%s' è cambiato sul disco.\nVuoi ricaricarlo dal disco?"
+dialogs.pythonfiles = "File Python"
+
+# Preferences
+prefs {
+	.title = "Preferenze"
+    .ok = "OK"
+	.cancel = "Annulla"
+
+	# General preferences are those most likely changed by students
+	# themselves, including fontsize etc.
+    .general = "General"
+	.fontsize = "Dimensione dei caratteri"
+    .tabwidth = "Dimensione di tabulatore"
+    .autoindent = "Attiva il rientro automatico"
+    .autosave = "Salva le file prima di eseguire"
+	.checkupdate = "Check for updates"
+	.highlightline = "Evidenzia la riga corrente."
+	.scaletoscreen = "Scale for high screen resolutions."
+	.hideexeccode = "Nascondi la finestra durante l'esecuzione."
+    .language = "Lingua"
+    .lookandfeel = "Apparenza"
+
+	# Advanced settings are rather for experiences users or teachers who
+	# tell the students to use a specific setting.
+    .advanced = "Advanced"
+	.advanced.tooltip = "Change advanced setting."
+	.docmode.multi = "Edit documents using tabs."
+	.docmode.multi.tooltip = "Allows to open and edit several documents at a time."
+	.docmode.single = "Edit one document only."
+	.docmode.single.tooltip = "Open and edit only one document at a time."
+	.docmode.newinstance = "Open document in a new window."
+	.docmode.newinstance.tooltip = "Open each document in a new version of " + app.name + "."
+	.autobackup = "Backup open files automatically."
+	.autobackup.tooltip = "TigerJython saves a copy of all open Python-files in the 'tjbackup'-folder."
+    .showmenu = "Show the mainmenu."
+    .showmenu.tooltip = "Display the menu at the top of the window."
+	.closedocwarning = "Warning! All documents will be immediately closed."
+	.jython.usagestats = "Print usage statistics"
+	.jython.usagestats.tooltip = "Print the time needed for the execution and the available memory at the end of the program."
+    .jython.autoaddjars = "Add jar-files in 'Lib' automatically to the path."
+    .jython.autoaddjars.tooltip = "Look for jar-files in the Lib-directory and add them to the python-path."
+	.popuperrormsg = "Show errors directly inside the editor."
+	.popuperrormsg.tooltip = "Error messages will displayed with a small pop-up window."
+	.jvm.disabledirectdraw = "Disable Direct3D-drawing."
+	.jvm.disabledirectdraw.tooltip = "On some computers, Java's Direct3D does not work properly and needs to be disabled."
+    .jython.exterrors = "Use the extended error-detection."
+    .jython.exterrors.tooltip = "When active, problematic or useless Python expressions are prohibited."
+    .jython.olddivision = "Use the old division of Python 2."
+    .jython.olddivision.tooltip = "When active, / and // are handled as in Python 2. This option requires " + 
+                                    app.name + " to be restarted."
+    .jython.evalinput = "Evaluate input as in Python 2."
+    .jython.evalinput.tooltip = "When active, the input function is 'eval(raw_input())'."
+    .jython.repeatloop = "Allow 'repeat'-loops."
+    .jython.repeatloop.tooltip = "Loops with 'repeat' are not standard-Python and can thus be deactivated here."
+	.jython.sagepowerop = "Use `^' for power and `^^' for xor."
+	.jython.sagepowerop.tooltip = "When this option is active, the operator `^' stands for `power' and `^^' is used for `xor'."
+	.showlonglists = "Display long lists completely."
+	.showlonglists.tooltip = "Without this option, long lists are shortened for display in the console."
+	.disabledebugbeans = "Disable beans-properties in the debugger."
+	.disabledebugbeans.tooltip = "Some Java-beans-properties might cause problems in the debugger. Disable them if necessary."
+	
+	# The library settings can in principle be changed by students and
+	# are about A. Plüss' libraries (turtle etc.)
+	.library = "Library"
+    .aplu.turtle.winsize = "Turtle's window size"
+	.aplu.turtle.winsize.default = "Default"
+	.aplu.turtle.winsize.default.tooltip = "Use the libraries' default."
+	.aplu.turtle.winsize.auto = "Auto"
+	.aplu.turtle.winsize.auto.tooltip = "Make the window as big as possible."
+	.aplu.turtle.winsize.manually = "Set size to"
+	.aplu.turtle.winsize.manually.tooltip = "Set the size manually to (width, height)."
+	.aplu.turtle.pencolor = "Pen color"
+	.aplu.turtle.color = "Turtle color"
+	.aplu.turtle.backgroundcolor = "Background color"
+	.aplu.gpanel.winsize = "GPanel's window size"
+	.aplu.gpanel.winsize.default = "Default"
+	.aplu.gpanel.winsize.default.tooltip = "Use the libraries' default."
+	.aplu.gpanel.winsize.manually = "Set size to"
+	.aplu.gpanel.winsize.manually.tooltip = "Set the size manually to (width, height)."
+    .aplu.gpanel.multiwindow = "Show several windows"
+	.aplu.ev3.enable = "Enable EV3-Download"
+	.aplu.ev3.exec = "Run after download"
+	.aplu.ev3.exec.tooltip = "Execute the script on the target after the download."
+	.aplu.ev3.ipaddress = "IP Address"
+	.aplu.ev3.ipaddress.tooltip = "Enter the IP Address of your target."
+	.aplu.ev3.robotselect = "Choose robot"
+	.aplu.ev3.robotnone = "No robot"
+	.aplu.ev3.robotev3 = "Lego EV3"
+	.aplu.ev3.robotrpi = "Raspberry Pi"
+	.aplu.ev3.microbit = "micro:bit/Calliope"
+	
+	# These are the labels for color settings regarding the syntax:
+	.syntax = "Syntax"
+	.syntax.background = "Background"
+	.syntax.default = "Normal font"
+	.syntax.builtin = "Builtin functions"
+	.syntax.comment = "Comments"
+	.syntax.const = "Builtin values"
+	.syntax.identifier = "Identifiers"
+	.syntax.keyword = "Keywords"
+	.syntax.number = "Numbers"
+	.syntax.operator = "Operators"
+	.syntax.separator = "Separators"
+	.syntax.string = "Strings"
+	.syntax.type = "Datatypes"
+	.syntax.curline = "Current line"
+	.gutter.background = "Linenumbers: Background"
+	.gutter.textcolor = "Linenumbers: Text"
+	.output.background = "Output: Background"
+	.output.textcolor = "Output: Text"
+	.output.errorcolor = "Output: Errormessages"
+	.gutter.prompt = "Console: Prompt"
+	.output.input = "Console: Input background"
+	.syntax.reset = "Reset to defaults"
+}
+
+# User defined functions
+userdef.delete = "Delete"
+userdef.emptylist = "You have no commands or functions defined!"
+userdef.confirmdelete = "Do you really want to delete '%s'?"
+
+# Find Dialog
+find {
+    .title = "Trova..."
+    .findbutton = "Trova"
+    .replacebutton = "Sostituisci"
+    .replaceallbutton = "Sostituisci tutti"
+    .cancel = "Annulla"
+    .findwhat = "Trova"
+    .replacewith = "Sostituisci con"
+    .wholeword = "Solo parole intere"
+    .matchcase = "Distingui tra maiuscole e minuscole"
+    .direction = "Direzione"
+    .up = "In su"
+    .down = "in giù"
+	.markall = "evidenzia tutte"
+}
+
+# Interactions of user programs, i.e. prompting a number.
+input.floatprompt = "Inserisci un numero:"
+input.intprompt = "Inserisci un numero intero:"
+input.nofloaterror = "Non è un numero."
+input.nointerror = "Non è un numero intero."
