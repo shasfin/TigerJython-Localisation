@@ -172,6 +172,7 @@ prefs {
     .showmenu = "Hoofdmenu tonen."
     .showmenu.tooltip = "Toon het menu aan de bovenkant van het venster."
 	.closedocwarning = "Opgelet! Alle documenten worden meteen afgesloten."
+	.displayerrorframe = "Bij een fout de laatste frame in de debugger plaatsen."
 	.jython.usagestats = "Programmastatistieken tonen"
 	.jython.usagestats.tooltip = "Tonen van uitvoeringstijd en vrij geheugen aan het einde van het programma."
     .jython.autoaddjars = "Jar-bestanden in 'Lib' automatisch toevoegen aan path."
@@ -195,6 +196,7 @@ prefs {
 	.showlonglists.tooltip = "Zonder deze optie worden lange lijsten in de console verkort getoond."
 	.disabledebugbeans = "Uitschakelen van beans-eigenschappen in de debugger."
 	.disabledebugbeans.tooltip = "Sommige Java-beans-eigenschappen zorgen voor problemen in de debugger en je kan deze hier uitschakelen."
+	.importsite = "Bij opstarten site-packages importeren."
 	
 	.library = "Bibliotheek"
     .aplu.turtle.winsize = "Venstergrootte voor de turtle"
