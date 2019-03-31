@@ -192,11 +192,17 @@ prefs {
     .jython.repeatloop.tooltip = " 'repeat' lussen zijn geen standaard-Python en kunnen hier uitgeschakeld worden."
 	.jython.sagepowerop = "Gebruik '^' als machtsverheffing en '^^' als 'xor'."
 	.jython.sagepowerop.tooltip = "Met deze optie wordt de operator '^' voor de 'machtsverheffing' en '^^' voor 'xor' gebruikt."
+	
+	.jython.protectfunctions = "Ingebouwde functies beschermen tegen overschrijven."
+	.jython.flatfunctions = "Geneste functiedefinities niet toelaten."
+	
 	.showlonglists = "Toon lange lijsten."
 	.showlonglists.tooltip = "Zonder deze optie worden lange lijsten in de console verkort getoond."
 	.disabledebugbeans = "Uitschakelen van beans-eigenschappen in de debugger."
 	.disabledebugbeans.tooltip = "Sommige Java-beans-eigenschappen zorgen voor problemen in de debugger en je kan deze hier uitschakelen."
+	
 	.importsite = "Bij opstarten site-packages importeren."
+	.ximport = "Uitgebreide syntax in geïmporteerde bestanden ondersteunen."
 	
 	.library = "Bibliotheek"
     .aplu.turtle.winsize = "Venstergrootte voor de turtle"
@@ -209,6 +215,9 @@ prefs {
 	.aplu.turtle.pencolor = "Penkleur"
 	.aplu.turtle.color = "Schildpadkleur"
 	.aplu.turtle.backgroundcolor = "Achtergrondkleur"
+	
+	.aplu.gturtle.hideonstart = "Turtle verbergen bij opstarten"
+	
 	.aplu.gpanel.winsize = "GPanel's venstergrootte"
 	.aplu.gpanel.winsize.default = "Standaard"
 	.aplu.gpanel.winsize.default.tooltip = "Gebruik de standaardwaarde van de bibliotheek."
