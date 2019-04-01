@@ -125,7 +125,7 @@ case USELESS_STATEMENT => "Deze opdracht heeft geen effect, en is dus nutteloos.
 case USELESS_STMT_USE_AUG_ASSIGN => "Deze opdracht is nutteloos. Bedoel je '%s='?"
 case VARARG_AFTER_KEYWORD_ARG => "Het unpacking var-argument moet het unpacking keyword-argument voorafgaan."
 case VARARG_NOT_ALLOWED => "Unpacking var/keyword-argumenten zijn hier niet toegestaan."
-case WRONG_BRACKET => "Verkeerde haakjes: '%s' is nodig in plaats van '%s'."
+case WRONG_BRACKET => "Verkeerde haakjes: gebruik '%s' in plaats van '%s'."
 case WRONG_TOKEN => "Verkeerd symbool '%s' in plaats van '%s'."
 case YIELD_OUTSIDE_FUNCTION => "Een 'yield'-expressie kan niet buiten een functie bestaan."
 
