@@ -85,7 +85,7 @@ showdebugger.caption = "&Debugger in/uitschakelen"
 showconsole.caption = "Toon &console"
 showconsole.tooltip = "Open de interactieve console in een eigen venster"
 showconsole.shortcut = "command T"
-define.caption = "Functie langdurig onthouden"
+define.caption = "Functie onthouden"
 define.tooltip = "Plaats de geselecteerde functie of opdracht in geheugen"
 showfunctions.caption = "Beheer mijn functies"
 
@@ -189,7 +189,7 @@ prefs {
     .jython.evalinput = "Evalueer invoer zoals in Python 2."
     .jython.evalinput.tooltip = "Wanneer actief, wordt de 'input'-functie als 'eval(raw_input())' gebruikt."
     .jython.repeatloop = "'repeat'-lus toelaten."
-    .jython.repeatloop.tooltip = " 'repeat' lussen zijn geen standaard-Python en kunnen hier uitgeschakeld worden."
+    .jython.repeatloop.tooltip = " 'repeat'-lussen zijn geen standaard-Python en kunnen hier uitgeschakeld worden."
 	.jython.sagepowerop = "Gebruik '^' als machtsverheffing en '^^' als 'xor'."
 	.jython.sagepowerop.tooltip = "Met deze optie wordt de operator '^' voor de 'machtsverheffing' en '^^' voor 'xor' gebruikt."
 	
@@ -260,7 +260,7 @@ prefs {
 }
 
 # User defined functions
-userdef.delete = "Wissen"
+userdef.delete = "Verwijderen"
 userdef.emptylist = "Je hebt geen opdrachten of functies gedefinieerd!"
 userdef.confirmdelete = "Wil je '%s' werkelijk verwijderen?"
 
