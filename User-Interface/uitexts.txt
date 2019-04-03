@@ -134,7 +134,7 @@ message.updateavailable = "Update: A newer version (%s) of " + app.name + " is a
 queries.overwrite = "The file '%s' already exists.\nDo you want to overwrite it?"
 queries.savebeforeclose = "The file '%s' has been changed.\nSave before closing?"
 queries.abort = "A program is still running.\nDo you want to stop it?"
-queries.reload = "The file '%s' has been modified by another program.\nDo you want to reload it from disc?"
+queries.reload = "The file '%s' has been modified by another program.\nDo you want to reload it from disk?"
 dialogs.pythonfiles = "Python files"
 
 # Preferences
@@ -199,7 +199,6 @@ prefs {
 	.jython.sagepowerop.tooltip = "When this option is active, the operator `^' stands for `power' and `^^' is used for `xor'."
 	.showlonglists = "Display long lists completely."
 	.showlonglists.tooltip = "Without this option, long lists are shortened for display in the console."
-	.jvm.disabledirectdraw = "Disable Direct3D-Drawing."
 	.disabledebugbeans = "Disable beans-properties in the debugger."
 	.disabledebugbeans.tooltip = "Some Java-beans-properties might cause problems in the debugger. Disable them if necessary."
 	.feedback.sendhttp = "Send us an automated feedback about error messages."
