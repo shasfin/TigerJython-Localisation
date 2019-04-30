@@ -13,11 +13,7 @@ let dictionary = {
 
     "modal-close-button": "Fermer",
 
-    "options-language": "Langue",
-    "options-language-de": "Allemande",
-    "options-language-fr": "Français",
-    "options-language-en": "Anglais",
-    "options-language-nl": "Néerlandais",
+    "options-current-language": "Français",
     "options-fullscreen": "Plein écran",
     "options-close-fullscreen": "Quitter le plein écran",
     "options-program-save": "Enregistrer programme",
