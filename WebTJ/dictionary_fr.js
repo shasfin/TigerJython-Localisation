@@ -23,14 +23,14 @@ let dictionary = {
     "choose-program-name": "Veuillez choisir un nom de programme:",
     "program-save-prefix": "programme_",
 
-    "file-api-error": "Désolé, votre navigateur ne peut pas ouvrir de programmes. Réessaye avec un autre navigateur.",
+    "file-api-error": "Votre navigateur ne peut malheureusement pas ouvrir de programmes. Réessayez avec un autre navigateur.",
 
-    "maketurtle-error": "Appel makeTurtle() pour créer la zone de dessin!",
-    "multiple-maketurtle-error": "Appel makeTurtle() seulement une fois! Supprime tous les autres makeTurtle().",
+    "maketurtle-error": "Utilisez makeTurtle() pour créer la zone de dessin!",
+    "multiple-maketurtle-error": "Utilisez makeTurtle() seulement une fois! Supprimez tous les autres appels à makeTurtle().",
     "line": "[ligne: ",
     "correct-syntax": "La syntaxe est correcte.",
     "file-not-found": "Le fichier n'a pas pu être trouvé: '",
-    "abort-message": "Tu as annulé le programme.",
+    "abort-message": "L'exécution du programme a été annulée.",
     // FIXME: what is this "repeats" at the end of the sentence ?
     "assert-repeats-colons": "Le nombre de boucles repeat trouvées ne correspond pas au nombre de deux-points trouvés! répétitions ",
     "assert-colons": ", deux-points: ",
@@ -51,13 +51,13 @@ let dictionary = {
     "info-description-title": "Description",
 
     // Translation of the Turtle functions in WebTJ
-    "info-number-of-steps": "nombre de pas",
+    "info-number-of-steps": "nombre_de_pas",
     "info-angle": "angle",
     "info-color": "couleur",
     "info-number": "nombre",
     "info-function": "fonction",
     "info-text": "\"texte\"",
-    "info-penwidth": "'É'paisseur du crayon",
+    "info-penwidth": "epaisseur_stylo",
     "info-arithmetic-expression": "expr. arithmétique",
     "info-time": "temps",
     "info-number-of": "nombre de",
@@ -68,8 +68,8 @@ let dictionary = {
     "info-license": "license",
     "info-description-import": "Charge les commandes de la tortue. Ce n'est qu'alors que l'ordinateur comprend les commandes de la tortue.",
     "info-description-makeTurtle": "Crée la tortue sur la zone de dessin.",
-    "info-description-forward": "Avance la torte du nombre de pas indiqué.",
-    "info-description-backward": "Recule la torte du nombre de pas indiqué.",
+    "info-description-forward": "Avance la tortue du nombre de pas indiqué.",
+    "info-description-backward": "Recule la tortue du nombre de pas indiqué.",
     "info-description-left": "Fait tourner la tortue sur elle-même vers la gauche de l'angle indiqué.",
     "info-description-right": "Fait tourner la tortue sur elle-même vers la droite de l'angle indiqué.",
     "info-description-setpencolor": "Définit la couleur du stylo. La couleur est donnée en anglais. La tortue reçoit une bordure de la couleur de stylo sélectionnée.",
@@ -87,7 +87,7 @@ let dictionary = {
     "info-description-heading": "Renvoie l'angle de la tortue de manière absolue, par rapport à la zone de dessin.",
     "info-description-speed": "Change la vitesse de la tortue. Si la vitesse est -1, la tortue se déplace aussi vite que possible. La tortue avance le plus lentement à la vitesse 1.",
     "info-description-msgDlg": "Affiche le texte dans sa propre fenêtre. La fenêtre doit d'abord être cliquée avec \"OK\" avant que le programme ne puisse se poursuivre.",
-    "info-description-label": "Affiche le texte dans la zone de dessin à la position actuelle de la tortue.",
+    "info-description-label": "Affiche le texte indiqué dans la zone de dessin à la position actuelle de la tortue.",
     "info-description-input": "L'ordinateur affiche la question dans une fenêtre, puis stocke la valeur saisie par " +
         "l'utilisateur dans la variable. Il existe trois variantes supplémentaires de cette fonction, chacune " +
         "exigeant un type de données spécifique:: inputInt(\"question\"), inputFloat(\"question\") et inputString(\"question\").",
@@ -102,10 +102,10 @@ let dictionary = {
     "info-description-startpath": "Le mouvement de la tortue est enregistré afin que la figure dessinée puisse être remplie.",
     "info-description-fillpath": "Relie la position actuelle de la tortue au point de départ et remplit la figure ainsi formée avec la couleur de remplissage.",
     "info-description-sqrt": "Calcule la racine du nombre.",
-    "info-description-isinteger": "Renvoie une valeur de vérité (true ou false) indiquant si le nombre est un entier ou non.",
+    "info-description-isinteger": "Renvoie une valeur de vérité (True ou False) indiquant si le nombre est un entier ou non.",
     "info-description-makecolor-intro": "Renvoie une couleur en notation hexadécimale et la stocke dans la variable c. " +
         "La couleur peut par exemple être définie comme suit:",
-    "info-description-makecolor-rgb": ": makeColor(R, G, B), makeColor(\"rgb(R,G,B)\") où R, G et B sont toutes des " +
+    "info-description-makecolor-rgb": ": makeColor(R, G, B), makeColor(\"rgb(R,G,B)\") où R, G et B sont des " +
         "nombres entiers compris entre 0 et 255 ou des nombres à virgules compris entre 0 et 1.",
     "info-description-makecolor-rgba": ": makeColor(R,G,B,A), makeColor(\"rgba(R,G,B,A\")) les valeurs pour R, G et B " +
         "sont les mêmes que ci-dessus. A est un nombre à virgule compris entre 0 et 1 et spécifie la transparence.",
@@ -119,21 +119,21 @@ let dictionary = {
         "coordonnée x peut être interrogée avec getPos()[0] et la coordonnée y avec getPos()[1].",
     "info-description-getx": "Renvoie les coordonnées x de la position actuelle de la tortue.",
     "info-description-gety": "Renvoie les coordonnées y de la position actuelle de la tortue.",
-    "info-description-moveto": "Déplace la tortue jusqu'au point (x, y) en dessant.",
+    "info-description-moveto": "Déplace la tortue jusqu'au point (x, y) en dessinant.",
     "info-description-setpos": "Déplace la tortue jusqu'au point (x, y) sans dessiner.",
     "info-description-setx": "Déplace la tortue à la coordonnée x donnée sans dessiner.",
     "info-description-sety": "Déplacez la tortue à la coordonnée y donnée sans dessiner.",
     "info-description-clean": "Efface la trace de la tortue. La tortue reste visible sur le terrain.",
     "info-description-cs": "Efface la trace de la tortue et remet la tortue à sa position de départ au centre de la zone de dessin.",
     "info-description-clear": "Efface la trace de la tortue. La tortue reste en place et se fait invisible.",
-    "info-description-onkey": "Appelle la fonction spécifiée lorsque la touche spécifiée est enfoncée. Il faut écrire " +
-        "nom de la fonction sans parenthèses. Pour pouvoir intercepter les frappes du clavier externe, " +
+    "info-description-onkey": "Appelle la fonction spécifiée lorsque la touche indiquée est enfoncée. Il faut écrire le " +
+        "nom de la fonction sans les parenthèses. Pour pouvoir intercepter les frappes du clavier externe, " +
         "il faut cliquer dans la zone de dessin après le démarrage du programme et appeler ensuite la fonction " +
-        "Screen().Listen() afin que la zone de dessin remarque la saisie.",
+        "Screen().Listen() pour que la zone de dessin remarque la saisie.",
     "info-description-onclick": "Invoque la fonction spécifiée lors d'un clic dans la zone de dessin. Il faut écrire " +
         "le nom de la fonction sans les parenthèses. Les coordonnées x et y du clic sont automatiquement transmises à la " +
-        "fonction. Appelez ensuite la fonction Screen().Listen() afin que la zone de dessin remarque la saisie.",
-    "info-description-listen": "Capture les clics et les frappes dans la zone de dessin. Cette fonctionnalité est " +
+        "fonction. Il faut ensuite appeler la fonction Screen().Listen() afin que la zone de dessin remarque la saisie.",
+    "info-description-listen": "Capture les clics de souris et les frappes de clavier dans la zone de dessin. Cette fonctionnalité est " +
         "utilisée avec Screen().onclick(..) et Screen().onkey(..). Il suffit d'appeler cette fonction une seule fois par programme.",
 
     "info-contact": "Contact",
@@ -142,5 +142,5 @@ let dictionary = {
     "info-authors": "Auteurs:",
     "info-copyright-descr": "L'application est activement développée par l'ABZ de l'ETH Zurich. L'utilisation de " +
         "l'application est gratuite, mais elle ne peut être utilisée à des fins commerciales. Toute adaptation ou " +
-        "copie de l'application doit être approuvée par écrit."
+        "copie de l'application doit faire l'objet d'une approbation par écrit."
 };
