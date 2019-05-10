@@ -32,10 +32,6 @@ let dictionary = {
     "file-not-found": "Die Datei konnte nicht gefunden werden: '",
     "abort-message": "Du hast das Programm abgebrochen.",
 
-    "assert-repeats-colons": "Die Anzahl gefundenen repeats stimmt nicht mit der Anzahl gefundenen Doppelpunkten überein! repeats ",
-    "assert-colons": ", Doppelpunkte: ",
-    "assertion-failed": "Assertion fehlgeschlagen",
-
     // Translations for info.html
     "info-title": "Informationen über WebTigerJython",
     "info-intro-1": "WebTigerJython ist eine schülerfreundliche Programmierumgebung für die Programmiersprache Python." +
@@ -142,5 +138,5 @@ let dictionary = {
     "info-authors": "Autoren:",
     "info-copyright-descr": "Die Applikation wird aktiv vom ABZ der ETH Zürich entwickelt. Die Benutzung der " +
         "Applikation ist kostenlos, sie darf jedoch nicht für kommerzielle Zwecke genutzt werden. Jede Anpassung " +
-        "oder Kopie der Applikation ausserhalb des ausgeführten Zweckes muss schriftlich bewilligt werden."
+        "oder Kopie der Applikation muss schriftlich bewilligt werden."
 };

@@ -32,10 +32,6 @@ let dictionary = {
     "file-not-found": "File not found: '",
     "abort-message": "You canceled the program.",
 
-    "assert-repeats-colons": "Amount of found repeats and colons is not equal! repeats ",
-    "assert-colons": ", colons: ",
-    "assertion-failed": "Assertion failed",
-
     // Translations for info.html
     "info-title": "Information about WebTigerJython",
     "info-intro-1": "WebTigerJython is a student friendly programming environment for the Python programming language." +
@@ -135,5 +131,5 @@ let dictionary = {
     "info-authors": "Authors:",
     "info-copyright-descr": "The application is actively developed by the ABZ of ETH Zurich. The use of the " +
         "application is free, but it may not be used for commercial purposes. Any customization or copy of the " +
-        "application outside the stated purpose must be given in writing."
+        "application must be given in writing."
 };

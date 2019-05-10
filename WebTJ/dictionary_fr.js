@@ -31,10 +31,6 @@ let dictionary = {
     "correct-syntax": "La syntaxe est correcte.",
     "file-not-found": "Le fichier n'a pas pu être trouvé: '",
     "abort-message": "L'exécution du programme a été annulée.",
-    // FIXME: what is this "repeats" at the end of the sentence ?
-    "assert-repeats-colons": "Le nombre de boucles repeat trouvées ne correspond pas au nombre de deux-points trouvés! répétitions ",
-    "assert-colons": ", deux-points: ",
-    "assertion-failed": "L'assertion a échoué",
 
     // Translations for info.html
     "info-title": "Informations à propos de WebTigerJython",
@@ -91,14 +87,7 @@ let dictionary = {
     "info-description-input": "L'ordinateur affiche la question dans une fenêtre, puis stocke la valeur saisie par " +
         "l'utilisateur dans la variable. Il existe trois variantes supplémentaires de cette fonction, chacune " +
         "exigeant un type de données spécifique:: inputInt(\"question\"), inputFloat(\"question\") et inputString(\"question\").",
-
-
-
-
-
-
     "info-description-setfillcolor": "Définit la couleur de remplissage. La couleur est indiquée en anglais. Le corps de la tortue est affiché dans la couleur sélectionnée.",
-
     "info-description-startpath": "Le mouvement de la tortue est enregistré afin que la figure dessinée puisse être remplie.",
     "info-description-fillpath": "Relie la position actuelle de la tortue au point de départ et remplit la figure ainsi formée avec la couleur de remplissage.",
     "info-description-sqrt": "Calcule la racine du nombre.",
