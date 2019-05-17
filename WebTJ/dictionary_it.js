@@ -1,9 +1,9 @@
 // Translation file for WebTigerJython
 // https://webtigerjython.ethz.ch
 //
-// (c) 2018-2019, Nicole Trachsler
+// (c) 2018-2019, Nicole Trachsler, Gregorio Sven
 //
-// Language: English
+// Language: Italian
 
 let dictionary = {
     // Translations for WebTJ's GUI
@@ -13,7 +13,7 @@ let dictionary = {
 
     "modal-close-button": "Chiudi",
 
-    "options-current-language": "Inglese",
+    "options-current-language": "Italiano",
     "options-fullscreen": "Schermo intero",
     "options-close-fullscreen": "Chiudi schermo intero",
     "options-program-save": "Salva programma",

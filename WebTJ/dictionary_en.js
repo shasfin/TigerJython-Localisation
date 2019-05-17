@@ -13,7 +13,7 @@ let dictionary = {
 
     "modal-close-button": "Close",
 
-    "options-current-language": "English",
+    "options-current-language": "English", // language of the current dictionary
     "options-fullscreen": "Full screen",
     "options-close-fullscreen": "Close full screen",
     "options-program-save": "Save program",
