@@ -68,7 +68,7 @@ let dictionary = {
     "info-description-backward": "Anzahl Schritte rückwärts gehen.",
     "info-description-left": "Auf der Stelle um den Winkel nach links drehen.",
     "info-description-right": "Auf der Stelle um den Winkel nach rechts drehen.",
-    "info-description-setpencolor": "Die Farbe des Stiftes setzen. Die Farbe wird in Englisch angegeben. Die Turtle" +
+    "info-description-setpencolor": "Die Farbe des Stiftes setzen. Die Farbe wird in Englisch angegeben. Die Turtle " +
         "erhält eine Umrandung in der gewählten Stiftfarbe.",
     "info-description-setpenwidth": "Die Breite des Stiftes setzen. Die Breite wird in Pixeln angegeben.",
     "info-description-print": "Den Text zwischen Anführungszeichen oder das Resultat des arithmetischen " +
