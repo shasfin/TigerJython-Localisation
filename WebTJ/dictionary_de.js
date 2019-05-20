@@ -32,6 +32,8 @@ let dictionary = {
     "file-not-found": "Die Datei konnte nicht gefunden werden: '",
     "abort-message": "Du hast das Programm abgebrochen.",
 
+    "error-msg-ie": "WebTigerJython funktioniert nicht mit dem Internet Explorer. Benutze bitte Chrome, FireFox oder Edge.",
+
     // Translations for info.html
     "info-title": "Informationen über WebTigerJython",
     "info-intro-1": "WebTigerJython ist eine schülerfreundliche Programmierumgebung für die Programmiersprache Python." +
