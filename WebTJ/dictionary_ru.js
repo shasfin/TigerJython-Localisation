@@ -36,9 +36,9 @@ let dictionary = {
 
     // Translations for info.html
     "info-title": "Информация о WebTigerJython",
-    "info-intro-1": "WebTigerJython -- для языка программирования Python. is a student friendly programming environment for the Python programming language." +  ААААААААААААААААААААА
-        " The learning environment is designed especially for school lessons with the textbook \"",  ААААААААААААААААААААААААА
-    "info-intro-2": "\" from Juraj Hromkovič and Tobias Kohn published by Klett & Balmer.",  АААААААААААААААААААА
+    "info-intro-1": "WebTigerJython -- среда для языка программирования Python, ориентированная на студентов." +
+        " Учебная среда разработана специально для школьных занятий с учебником \"", 
+    "info-intro-2": "\" Юрая Громковича и Тобиаса Кона издательства Klett & Balmer.",  АААААААААААААААААААА
     "info-features": "Свойства",
     "info-release-1.0.0": "Базовая версия",
     "info-release-1.1.0": "Расширенная языковая поддержка (французский)",
@@ -106,30 +106,30 @@ let dictionary = {
     "info-description-makecolor-hexadecimal-descr": ": makeColor(\"#7FFFD4\") цвет обозначается шестнадцатеричным кодом.",
     "info-description-makecolor-colorstring": ": makeColor(\"Aqua-Marine\") цвет обозначается по-английски.",
     "info-description-getpixelcolorstr": "Возвращает цвет пикселя, на котором сейчас находится черепашка.",
-    "info-description-getpos": "Возвращает координаты (x, y) местоположения черепашки. The x-coordinate can be " +  FFFFFFFFFFFFFFF return, access, coordinate, current turtle position
-        "accessed with getPos()[0] and the y-coordinate with getPos()[1].",
-    "info-description-getx": "Return the x-coordinate of the current turtle position.", FFFFFFFFF return, coordinate, current turtle position
-    "info-description-gety": "Return the y-coordinate of the current turtle position.", FFFFFFFFF return, coordinate, current turtle position
+    "info-description-getpos": "Возвращает координаты (x, y) местоположения черепашки. Координата x доступна через getPos()[0], " +
+        "координата y через getPos()[1].",
+    "info-description-getx": "Вернуть x-координату местоположения черепашки.",
+    "info-description-gety": "Вернуть y-координату местоположения черепашки.",
     "info-description-moveto": "Переместить черепашку в точку (x, y).",
     "info-description-setpos": "Переместить черепашку в точку (x, y, не оставляя следов.",
-    "info-description-setx": "Переместить черепашку to the given x-coordinate without drawing.",  ААААААААААААаа to the given x-coordinate
-    "info-description-sety": "Переместить черепашку to the given y-coordinate without drawing.",  ААААААААААААаа to the given y-coordinate
+    "info-description-setx": "Переместить черепашку в заданную координату х, не оставляя следов.",
+    "info-description-sety": "Переместить черепашку в заданную координату y, не оставляя следов.",
     "info-description-clean": "Удалить следы черепашки. Черепашка остаётся на месте.",
-    "info-description-cs": "Удалить следы черепашки and set the turtle back to its initial position in the middle of the canvas.",  FFFFFFFFFFFFFFFf canvas initial position
+    "info-description-cs": "Удалить следы черепашки и вернуть черепашку в исходное положение в середине листа.",
     "info-description-clear": "Удалить следы черепашки. Черепашка остаётся на месте и становится невидимой.",
-    "info-description-onkey": "Calls up the specified function when the specified key is pressed. Write the function " +  FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        "name without parentheses. To be able to intercept the keystrokes from your external keyboard, you must click " +
-        "in the drawing area after you start the program. Then call the Screen().listen() function to let the canvas hear your key input.",
-    "info-description-onclick": "Invokes the specified function when you click on the canvas. Write the function " +  FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        "name without parentheses. The x- and y- coordinates of the click are automatically passed to the function. " +
-        "Then call the Screen().listen() function to make the canvas hear your input.",
-    "info-description-listen": "Captures clicks and keystrokes in the canvas. This feature is used in conjunction " +  FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        "with Screen().onclick(..) and Screen().onkey(..). You only need to call this function once per program.",
+    "info-description-onkey": "Вызывает указанную функцию при нажатии указанной клавиши. Укажите имя функции без скобок. " +
+        "Щёлкните в области рисования после запуска программы, чтобы программа могла перехватывать нажатия клавиш с вашей внешней клавиатуры. " +
+        "Затем вызовите функцию Screen().listen(), чтобы лист ждал и опознавал ввод с клавиатуры.",
+    "info-description-onclick": "IВызывает указанную функцию при нажатии на лист. Укажите имя функции без скобок. " +
+        "Координаты (x,y) щелчка мышью автоматически передаются в функцию. " +
+        "Затем вызовите функцию Screen().listen(), чтобы лист ждал и опознавал ввод с клавиатуры.",
+    "info-description-listen": "Захватывает щёлчки мышью и нажатия клавиш на клавиатуре на листе. Эта функция используется вместе с " +
+        "Screen().onclick(..) и Screen().onkey(..). Достаточно вызвать эту функцию один раз для каждой программы.",
 
     "info-contact": "Контакты",
-    "info-contact-descr": "Please send your feedback and suggestions about the programming environment directly to Nicole Trachsler by e-mail: nicole.trachsler (at) inf.ethz.ch",  ААААААААААААААААААА
+    "info-contact-descr": "Пожалуйста, присылайте ваши отзывы и предложения о среде программирования напрямую Николь Трахслер по электронной почте: nicole.trachsler (at) inf.ethz.ch",
     "info-authors": "Авторы:",
-    "info-copyright-descr": "The application is actively developed by the ABZ of ETH Zurich. The use of the " +  ААААААААААААААААААААААААААААААА
-        "application is free, but it may not be used for commercial purposes. Any customization or copy of the " +  АААААААААААААААААААААА
-        "application must be given in writing."  ААААААААААААААААААААААА
+    "info-copyright-descr": "Приложение активно разрабатывается группой ABZ швейцарской высшей технической школы Цюриха (ETH Zurich). " +
+        "Использование приложения бесплатно, но оно не может быть использовано в коммерческих целях. Любая адаптация или копия " +
+        "приложения должна быть утверждена в письменной форме." 
 };
