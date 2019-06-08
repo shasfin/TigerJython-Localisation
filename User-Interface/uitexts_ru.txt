@@ -234,7 +234,7 @@ prefs {
 	.aplu.ev3.ipaddress = "IP-адрес"
 	.aplu.ev3.ipaddress.tooltip = "Введите IP-адрес или COM-PORT вашей целевой платформы."
 	.aplu.ev3.robotselect = "Выбрать робота"
-	.aplu.ev3.robotnone = "Нет робота"
+	.aplu.ev3.robotnone = "Без робота"
 	.aplu.ev3.robotev3 = "Lego EV3"
 	.aplu.ev3.robotrpi = "Raspberry Pi"
 	.aplu.ev3.microbit = "micro:bit/Calliope"
